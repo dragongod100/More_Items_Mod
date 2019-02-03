@@ -1,0 +1,16 @@
+[
+{
+  "modid": "extraStuff",
+  "name": "Extra Stuff",
+  "description": "Sned Hlep is proud to produce one of our very own mods.",
+  "version": "${version}",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["dragongod100"],
+  "credits": "My friends, and family.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
