@@ -61,8 +61,7 @@ processResources
         exclude 'mcmod.info'
     }
 }
-task copyResources(type: Copy)
-        {
-            from "src/main/resources"
-            into "out/production/MoreItemsMod"
+task copyResources(type: Copy) {
+            from "../src/main/resources"
+            into "../out/production/MoreItemsMod"
         }

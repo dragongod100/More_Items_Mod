@@ -24,5 +24,4 @@ public class oreMain extends Block
         this.setResistance(20.0f);
         this.setHarvestLevel("pickaxe", lvl);
 	}
-
 }

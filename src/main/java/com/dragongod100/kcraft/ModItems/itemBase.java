@@ -12,7 +12,7 @@ public class itemBase extends Item
 		name = new Item();
 		name.setUnlocalizedName(unlocal);
 		name.setCreativeTab(ModItems.tabMyMod);
-		name.setTextureName(kcraft.MODID + ":" + unlocal);
-		GameRegistry.registerItem(name, unlocal);
+		GameRegistry.registerItem(name, unlocal, name.getUnlocalizedName());
+		name.setTextureName(kcraft.MODID +":" + unlocal);
 	}
 }

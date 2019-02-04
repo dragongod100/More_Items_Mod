@@ -14,7 +14,7 @@ public class kcraft
 {
 	
 /* *******************************************************************
-*/    public static final String MODID   = "moreItems";				/*
+*/    public static final String MODID   = "moreitems";				/*
 */    public static final String MODNAME = "More Items Mod";		/*
 */    public static final String VERSION = "1.7.10 3.1A";   		/*
 ********************************************************************/
