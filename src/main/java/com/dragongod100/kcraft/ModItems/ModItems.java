@@ -20,11 +20,11 @@ public final class ModItems
 	};
 	public static final void preInit()
 	{
-		bindingWooden = new itemBase(bindingWooden,"bindingWooden");
-		hiltWooden = 	new itemBase(hiltWooden,"hiltWooden");
-		bladeWooden = 	new itemBase(bladeWooden,"bladeWooden");
-		nuggetSilver = 	new itemBase(nuggetSilver,"nuggetSilver");
-		ingotSilver = 	new itemBase(ingotSilver,"ingotSilver");
+		bindingWooden = new itemBasic(bindingWooden,"bindingWooden");
+		hiltWooden = 	new itemBasic(hiltWooden,"hiltWooden");
+		bladeWooden = 	new itemBasic(bladeWooden,"bladeWooden");
+		nuggetSilver = 	new itemBasic(nuggetSilver,"nuggetSilver");
+		ingotSilver = 	new itemBasic(ingotSilver,"ingotSilver");
 
 	}
 }

@@ -5,9 +5,9 @@ import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
 
 
-public class itemBase extends Item
+public class itemBasic extends Item
 {
-	protected itemBase(Item name, String unlocal)
+	protected itemBasic(Item name, String unlocal)
 	{
 		name = new Item();
 		name.setUnlocalizedName(unlocal);

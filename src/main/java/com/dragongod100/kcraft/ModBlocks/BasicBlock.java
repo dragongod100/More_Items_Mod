@@ -3,14 +3,13 @@ package com.dragongod100.kcraft.ModBlocks;
 
 import com.dragongod100.kcraft.ModItems.ModItems;
 import com.dragongod100.kcraft.kcraft;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 
 public class BasicBlock extends Block 
 {
 
-    protected BasicBlock(String unlocalizedName, Material material) 
+    protected BasicBlock(String unlocalizedName, Material material)
     {
         super(material);
         this.setBlockName(unlocalizedName);

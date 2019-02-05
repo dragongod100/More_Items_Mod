@@ -34,7 +34,7 @@ public class kcraft
         @EventHandler
         public void preInit(FMLPreInitializationEvent myMod)
         {
-        	System.out.println("Called method: [preInit]");
+        	System.out.println(MODNAME + " Called method: [preInit]");
         	proxy.preInit(myMod);
                     
         }
@@ -43,7 +43,7 @@ public class kcraft
         @EventHandler
         public void init(FMLInitializationEvent myMod)
         {
-        	System.out.println("Called method: [init]");
+        	System.out.println(MODNAME + " Called method: [init]");
         	proxy.init(myMod);
         	
         }
@@ -52,7 +52,7 @@ public class kcraft
         @EventHandler
         public void postInit(FMLPostInitializationEvent myMod)
         {
-        	System.out.println("Called method: [postInit]");
+        	System.out.println(MODNAME + " Called method: [postInit]");
         	proxy.postInit(myMod);
                     
         }

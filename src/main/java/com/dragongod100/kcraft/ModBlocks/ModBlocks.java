@@ -2,6 +2,7 @@ package com.dragongod100.kcraft.ModBlocks;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.material.Material;
+import net.minecraftforge.oredict.OreDictionary;
 
 public final class ModBlocks 
 {
@@ -21,6 +22,8 @@ public final class ModBlocks
         GameRegistry.registerBlock
             (blockSilver = new BasicBlock("blockSilver",
                     Material.iron), "BlockSilver");
+
+        OreDictionary.registerOre("blockSilver", blockSilver);
 
 
 
